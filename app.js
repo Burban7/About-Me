@@ -1,7 +1,7 @@
 'use strict'
 
 let username = prompt('What is your name?').toUpperCase();
-alert('Hi' + username + ,'lets play a game!');
+alert('Hi' + username + 'lets play a game!');
 
 let whereImFrom = prompt('Was I born in Washington?').toLowerCase();
 if (whereImFrom === 'yes' || whereImFrom === 'y') {
