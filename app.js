@@ -1,8 +1,12 @@
 'use strict'
 
+function username(){
 let username = prompt('What is your name?').toUpperCase();
 alert('Hi' + username + 'lets play a game!');
+}
+username();
 
+function whereImFrom(){
 let whereImFrom = prompt('Was I born in Washington?').toLowerCase();
 if (whereImFrom === 'yes' || whereImFrom === 'y') {
     alert('No, I was actually born in California.');
@@ -12,7 +16,8 @@ if (whereImFrom === 'yes' || whereImFrom === 'y') {
     alert('You need to answer with a \'yes\' or a \'no\'');
 
 }
-
+}
+whereImFrom();
 
 let howOldAmI = prompt('Am I older than 24?').toLowerCase();
 if (howOldAmI === 'yes' || howOldAmI === 'y') {
