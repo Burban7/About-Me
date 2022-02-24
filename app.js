@@ -32,27 +32,31 @@ function howOldAmI() {
 }
 howOldAmI();
 
-let myFavoriteSport = prompt('Is baseball the best sport?').toLowerCase();
-if (myFavoriteSport === 'yes' || myFavoriteSport === 'y') {
-    alert('Correct! It is the best sport and my favorite');
-} else if (myFavoriteSport === 'no' || myFavoriteSport === 'n') {
-    alert('You are incorrect, do you play soccer or something?');
-} else {
-    alert('You need to answer with a \'yes\' or a \'no\'');
+function myFavoriteSport() {
+    let myFavoriteSport = prompt('Is baseball the best sport?').toLowerCase();
+    if (myFavoriteSport === 'yes' || myFavoriteSport === 'y') {
+        alert('Correct! It is the best sport and my favorite');
+    } else if (myFavoriteSport === 'no' || myFavoriteSport === 'n') {
+        alert('You are incorrect, do you play soccer or something?');
+    } else {
+        alert('You need to answer with a \'yes\' or a \'no\'');
 
+    }
 }
+myFavoriteSport();
 
+function theBestSeason() {
+    let theBestSeason = prompt('Is winter my favorite seasn?').toLowerCase();
+    if (theBestSeason === 'yes' || theBestSeason === 'y') {
+        alert('Correct! Pray for snow!');
+    } else if (theBestSeason === 'no' || theBestSeason === 'n') {
+        alert('That is incorrect. Winter is the superior season');
+    } else {
+        alert('You need to answer with a \'yes\' or a \'no\'');
 
-let theBestSeason = prompt('Is winter my favorite seasn?').toLowerCase();
-if (theBestSeason === 'yes' || theBestSeason === 'y') {
-    alert('Correct! Pray for snow!');
-} else if (theBestSeason === 'no' || theBestSeason === 'n') {
-    alert('That is incorrect. Winter is the superior season');
-} else {
-    alert('You need to answer with a \'yes\' or a \'no\'');
-
+    }
 }
-
+theBestSeason();
 
 let birthMonth = prompt('Was I born in December?').toLowerCase();
 if (birthMonth === 'yes' || birthMonth === 'y') {
