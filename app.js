@@ -58,13 +58,15 @@ function theBestSeason() {
 }
 theBestSeason();
 
-let birthMonth = prompt('Was I born in December?').toLowerCase();
-if (birthMonth === 'yes' || birthMonth === 'y') {
-    alert('Correct! Two days before Christmas!');
-} else if (birthMonth === 'no' || birthMonth === 'n') {
-    alert('Sorry, that is incorrect. I was born in December, just two days before Christmas!');
-} else {
-    alert('You need to answer with a \'yes\' or a \'no\'');
+function birthMonth() {
+    let birthMonth = prompt('Was I born in December?').toLowerCase();
+    if (birthMonth === 'yes' || birthMonth === 'y') {
+        alert('Correct! Two days before Christmas!');
+    } else if (birthMonth === 'no' || birthMonth === 'n') {
+        alert('Sorry, that is incorrect. I was born in December, just two days before Christmas!');
+    } else {
+        alert('You need to answer with a \'yes\' or a \'no\'');
 
+    }
 }
-
+birthMonth();
